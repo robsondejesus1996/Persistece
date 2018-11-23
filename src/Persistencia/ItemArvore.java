@@ -7,21 +7,13 @@ package Persistencia;
  */
 public class ItemArvore {
     
-    /**
-     * Endereço da tupla.
-     */
+   
      long endereco;
-    /**
-     * Endereço da tupla à esquerda.
-     */
+    
      long esquerda;
-    /**
-     * Endereço da tupla à direita.
-     */
+    
      long direita;
-    /**
-     * Se a tupla já foi visto.
-     */
+    
      boolean visto;
 
     public ItemArvore() {
