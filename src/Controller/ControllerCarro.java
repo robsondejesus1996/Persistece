@@ -49,7 +49,7 @@ public class ControllerCarro {
     public void executar() {
 
         ManipularArquivos.gravar(ManipularArquivos.CAMINHO_ARQUIVO_COMANDOS,
-                new Date() + "  Programa foi inicializado!");
+                new Date() + "  Programa foi inicializado! ");
 
         System.out.print("Digite 'comecar' para ver todas as instruções do sistema.\n");
         String aux;
