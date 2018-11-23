@@ -1,7 +1,7 @@
 package Exceptions;
 
 /**
- * @author tiago
+ * @author Robson de Jesus
  */
 public class IndiceAtributoInvalido extends RuntimeException{
 
