@@ -1,0 +1,519 @@
+Sat Nov 17 14:27:46 BRST 2018  Inicio da execução!
+Sat Nov 17 14:27:48 BRST 2018  m
+Sat Nov 17 14:27:51 BRST 2018  ajuda
+Sat Nov 17 14:28:17 BRST 2018  criar -c 1 -n gol -q azul -s 1200,00
+Sat Nov 17 14:28:19 BRST 2018  m
+Sat Nov 17 14:29:00 BRST 2018  pesquisar -n gol 
+Sat Nov 17 14:29:27 BRST 2018  pesquisar -q azul
+Sat Nov 17 14:29:38 BRST 2018  pesquisar -c 1
+Sat Nov 17 14:29:47 BRST 2018  Inicio da execução!
+Sat Nov 17 14:29:49 BRST 2018  m
+Sat Nov 17 14:31:04 BRST 2018  Inicio da execução!
+Sat Nov 17 14:31:06 BRST 2018  m
+Sun Nov 18 10:13:39 BRST 2018  Inicio da execução!
+Sun Nov 18 10:13:41 BRST 2018  m
+Sun Nov 18 10:13:48 BRST 2018  pesquisar -c 1
+Sun Nov 18 11:22:41 BRST 2018  Inicio da execução!
+Sun Nov 18 11:22:49 BRST 2018  ajuda
+Sun Nov 18 11:37:51 BRST 2018  Inicio da execução!
+Sun Nov 18 11:38:56 BRST 2018  Inicio da execução!
+Sun Nov 18 11:39:29 BRST 2018  Inicio da execução!
+Sun Nov 18 11:41:06 BRST 2018  Inicio da execução!
+Sun Nov 18 11:41:53 BRST 2018  Inicio da execução!
+Sun Nov 18 11:43:15 BRST 2018  Inicio da execução!
+Sun Nov 18 11:45:16 BRST 2018  Inicio da execução!
+Sun Nov 18 11:45:18 BRST 2018  ajuda
+Sun Nov 18 11:50:52 BRST 2018  Inicio da execução!
+Sun Nov 18 11:50:55 BRST 2018  ajuda
+Sun Nov 18 11:51:12 BRST 2018  Inicio da execução!
+Sun Nov 18 11:51:14 BRST 2018  ajuda
+Sun Nov 18 11:52:41 BRST 2018  Inicio da execução!
+Sun Nov 18 11:52:43 BRST 2018  ajuda
+Sun Nov 18 11:54:59 BRST 2018  Inicio da execução!
+Sun Nov 18 11:55:33 BRST 2018  Inicio da execução!
+Sun Nov 18 11:56:22 BRST 2018  Inicio da execução!
+Sun Nov 18 11:56:25 BRST 2018  run
+Sun Nov 18 12:00:48 BRST 2018  Inicio da execução!
+Sun Nov 18 12:00:50 BRST 2018  run
+Sun Nov 18 12:01:41 BRST 2018  Inicio da execução!
+Sun Nov 18 12:01:43 BRST 2018  run
+Sun Nov 18 12:02:10 BRST 2018  criar 001 -n Fiat -q azul -s 3000
+Sun Nov 18 12:02:21 BRST 2018  criar -c 20 -n Nome -q Qualificacao -s 1200,00
+Sun Nov 18 12:02:28 BRST 2018  resetar
+Sun Nov 18 12:03:03 BRST 2018  criar -c 99 -n Fiat -q azul -s 1200,00
+Sun Nov 18 12:03:09 BRST 2018  m
+Sun Nov 18 12:03:33 BRST 2018  Inicio da execução!
+Sun Nov 18 12:03:36 BRST 2018  run
+Sun Nov 18 12:22:58 BRST 2018  Inicio da execução!
+Sun Nov 18 12:23:02 BRST 2018  run
+Sun Nov 18 12:25:17 BRST 2018  Inicio da execução!
+Sun Nov 18 12:25:19 BRST 2018  run
+Sun Nov 18 12:27:47 BRST 2018  Inicio da execução!
+Sun Nov 18 12:27:49 BRST 2018  run
+Sun Nov 18 12:28:34 BRST 2018  Inicio da execução!
+Sun Nov 18 12:28:36 BRST 2018  run
+Sun Nov 18 12:29:06 BRST 2018  Inicio da execução!
+Sun Nov 18 12:29:10 BRST 2018  run
+Sun Nov 18 12:29:27 BRST 2018  Inicio da execução!
+Sun Nov 18 12:29:30 BRST 2018  run
+Sun Nov 18 12:29:41 BRST 2018  resetar
+Sun Nov 18 12:30:54 BRST 2018  Inicio da execução!
+Sun Nov 18 12:30:56 BRST 2018  run
+Sun Nov 18 12:43:41 BRST 2018  Inicio da execução!
+Sun Nov 18 12:43:44 BRST 2018  run
+Sun Nov 18 12:43:59 BRST 2018  criar -c 002 -n Argo -q Preto -s 80000,00
+Sun Nov 18 12:44:00 BRST 2018  m
+Sun Nov 18 12:44:10 BRST 2018  resetar
+Sun Nov 18 12:44:13 BRST 2018  sair
+Sun Nov 18 12:44:13 BRST 2018  Final da execução
+
+
+
+Sun Nov 18 12:45:07 BRST 2018  Inicio da execução!
+Sun Nov 18 12:45:16 BRST 2018  run
+Sun Nov 18 12:45:20 BRST 2018  m
+Sun Nov 18 12:45:43 BRST 2018  criar -c 001 -n Argo -q Preto -s 80000,00 
+Sun Nov 18 12:45:45 BRST 2018  m
+Sun Nov 18 12:46:14 BRST 2018  atualizar -c 001 -n Fiat -q Azul -s 1200,00
+Sun Nov 18 12:46:38 BRST 2018  criar -c 20 -n Nome -q Qualificacao -s 1200,00
+Sun Nov 18 12:46:39 BRST 2018  m
+Sun Nov 18 12:46:56 BRST 2018  atualizar -c 20 -n Nome -q Qualificacao -s 1300,00
+Sun Nov 18 12:47:10 BRST 2018  atualizar -c 20 -n Teste -q Qualificacao -s 1200,00
+Sun Nov 18 12:47:30 BRST 2018  atualizar -c 20 -n Teste -q Preto -s 1200,00
+Sun Nov 18 12:47:36 BRST 2018  sair
+Sun Nov 18 12:47:36 BRST 2018  Final da execução
+
+
+
+Sun Nov 18 12:47:47 BRST 2018  Inicio da execução!
+Sun Nov 18 12:47:49 BRST 2018  run
+Sun Nov 18 12:48:13 BRST 2018  excluir 20
+Sun Nov 18 12:48:19 BRST 2018  m
+Sun Nov 18 12:48:32 BRST 2018  Inicio da execução!
+Sun Nov 18 12:48:35 BRST 2018  m
+Sun Nov 18 12:48:43 BRST 2018  run
+Sun Nov 18 12:48:59 BRST 2018  exluir 1
+Sun Nov 18 12:49:05 BRST 2018  excluir 001
+Sun Nov 18 12:49:07 BRST 2018  sair
+Sun Nov 18 12:49:07 BRST 2018  Final da execução
+
+
+
+Sun Nov 18 12:49:13 BRST 2018  Inicio da execução!
+Sun Nov 18 12:49:15 BRST 2018  run
+Sun Nov 18 12:49:16 BRST 2018  m
+Sun Nov 18 12:49:43 BRST 2018  criar -c 001 -n Argo -q Preto -s 80000,00
+Sun Nov 18 12:50:27 BRST 2018  atualizar -c 001 -n Palio -q Branco -s 1200,00
+Sun Nov 18 12:55:03 BRST 2018  Inicio da execução!
+Sun Nov 18 12:55:06 BRST 2018  run
+Sun Nov 18 12:55:20 BRST 2018  m
+Sun Nov 18 12:55:59 BRST 2018  a -c 001 -n Palio -q Azul -s 50000,00
+Sun Nov 18 12:56:02 BRST 2018  m
+Sun Nov 18 12:56:37 BRST 2018  Inicio da execução!
+Sun Nov 18 12:56:39 BRST 2018  r
+Sun Nov 18 12:57:02 BRST 2018  Inicio da execução!
+Sun Nov 18 12:57:08 BRST 2018  run
+Sun Nov 18 12:57:30 BRST 2018  criar -c 1 -n Argo -q Preto -s 800000,00
+Sun Nov 18 12:57:32 BRST 2018  m
+Sun Nov 18 12:58:06 BRST 2018  atualizar -c 1 -n Fusca -q Rosa -s 1200,00
+Sun Nov 18 12:58:25 BRST 2018  atualizar -c 001 -n Fusca -q Qualificacao -s 1200,00
+Sun Nov 18 12:58:28 BRST 2018  sair
+Sun Nov 18 12:58:28 BRST 2018  Final da execução
+
+
+
+Sun Nov 18 12:58:33 BRST 2018  Inicio da execução!
+Sun Nov 18 12:58:35 BRST 2018  run
+Sun Nov 18 12:58:37 BRST 2018  r
+Sun Nov 18 12:58:40 BRST 2018  run
+Sun Nov 18 12:58:51 BRST 2018  criar -c 001 -n Argo -q Preto -s 80000,00
+Sun Nov 18 12:59:17 BRST 2018  atualizar -c 001 -n Palio -q Azul -s 7000,00
+Sun Nov 18 12:59:49 BRST 2018  m
+Sun Nov 18 12:59:55 BRST 2018  a -c 001 -n Palio -q azul -s 70000,00
+Sun Nov 18 12:59:58 BRST 2018  m
+Sun Nov 18 13:00:36 BRST 2018  atualizar -c 001 -n teste -q teste -s 1000,00
+Sun Nov 18 13:01:43 BRST 2018  Inicio da execução!
+Sun Nov 18 13:01:45 BRST 2018  run
+Sun Nov 18 13:02:35 BRST 2018  pesquisar -c 001
+Sun Nov 18 13:02:46 BRST 2018  pesquiasr -n teste
+Sun Nov 18 13:02:51 BRST 2018  m
+Sun Nov 18 13:03:00 BRST 2018  pesquisar -n Palio
+Sun Nov 18 13:06:18 BRST 2018  Inicio da execução!
+Sun Nov 18 13:06:22 BRST 2018  run
+Sun Nov 18 13:07:16 BRST 2018  Inicio da execução!
+Sun Nov 18 13:07:18 BRST 2018  run
+Sun Nov 18 13:07:26 BRST 2018  m
+Sun Nov 18 13:07:28 BRST 2018  r
+Sun Nov 18 13:07:35 BRST 2018  Inicio da execução!
+Sun Nov 18 13:08:13 BRST 2018  Inicio da execução!
+Sun Nov 18 13:08:15 BRST 2018  run
+Sun Nov 18 13:08:34 BRST 2018  Inicio da execução!
+Sun Nov 18 13:08:35 BRST 2018  run
+Sun Nov 18 13:09:54 BRST 2018  Inicio da execução!
+Sun Nov 18 13:09:58 BRST 2018  run
+Sun Nov 18 13:10:08 BRST 2018  r
+Sun Nov 18 13:10:10 BRST 2018  m
+Sun Nov 18 16:57:05 BRST 2018  Inicio da execução!
+Sun Nov 18 16:57:10 BRST 2018  run
+Sun Nov 18 16:57:19 BRST 2018  m
+Sun Nov 18 16:57:45 BRST 2018  criar -c 001 -n Argo -q Preto -s 8000,00
+Sun Nov 18 16:58:04 BRST 2018  pesquisar -c 001
+Sun Nov 18 16:58:14 BRST 2018  pesquisar -n Argo
+Sun Nov 18 16:58:48 BRST 2018  a -c 001 -n Fiat -q Azul -s 10000,00
+Sun Nov 18 16:59:00 BRST 2018  pesquisar -c 001
+Sun Nov 18 16:59:05 BRST 2018  m
+Sun Nov 18 16:59:33 BRST 2018  criar -c 002 -n Palio -q Branco -s 20000,00
+Sun Nov 18 17:00:03 BRST 2018  criar -c 003 -n Uno -q Cinza -s 15000,00
+Sun Nov 18 17:00:05 BRST 2018  m
+Sun Nov 18 17:01:07 BRST 2018  criar -c 004 -n Cobolt -q Rosa -s 12000,00
+Sun Nov 18 17:01:35 BRST 2018  criar -c 005 -n Fusca -q Roxo -s 15000,00
+Sun Nov 18 17:01:56 BRST 2018  criar -c 001 -n Fusca -q Roxo -s 15000,00
+Sun Nov 18 17:02:10 BRST 2018  sair
+Sun Nov 18 17:02:10 BRST 2018  Final da execução
+
+
+
+Sun Nov 18 17:02:17 BRST 2018  Inicio da execução!
+Sun Nov 18 17:02:19 BRST 2018  run
+Sun Nov 18 17:02:22 BRST 2018  m
+Sun Nov 18 17:03:10 BRST 2018  a -c 005 -n Mobi -q Rosa -s 12000
+Sun Nov 18 17:03:14 BRST 2018  clear
+Sun Nov 18 17:03:28 BRST 2018  m
+Sun Nov 18 17:03:37 BRST 2018  r
+Sun Nov 18 17:03:49 BRST 2018  Inicio da execução!
+Sun Nov 18 17:03:50 BRST 2018  m
+Sun Nov 18 17:03:57 BRST 2018  run
+Sun Nov 18 17:04:05 BRST 2018  criar -c 001 -n Argo -q Preto -s 80000,00
+Sun Nov 18 17:04:09 BRST 2018  criar -c 002 -n Argo -q Preto -s 80000,00
+Sun Nov 18 17:04:13 BRST 2018  criar -c 003 -n Argo -q Preto -s 80000,00
+Sun Nov 18 17:04:18 BRST 2018  criar -c 004 -n Argo -q Preto -s 80000,00
+Sun Nov 18 17:04:24 BRST 2018  criar -c 005 -n Argo -q Preto -s 80000,00
+Sun Nov 18 17:04:28 BRST 2018  m
+Sun Nov 18 17:04:36 BRST 2018  excluir 1
+Sun Nov 18 17:04:41 BRST 2018  m
+Sun Nov 18 17:05:27 BRST 2018  a -c 001 -n Argo -q Preto -s 12000,00
+Sun Nov 18 17:06:00 BRST 2018  criar -c 001 -n Argooo -q Azul -s 12000,00
+Sun Nov 18 17:06:03 BRST 2018  m
+Sun Nov 18 17:06:12 BRST 2018  exluir 001
+Sun Nov 18 17:06:18 BRST 2018  excluir 001
+Sun Nov 18 17:06:23 BRST 2018  sair
+Sun Nov 18 17:06:23 BRST 2018  Final da execução
+
+
+
+Sun Nov 18 17:06:31 BRST 2018  Inicio da execução!
+Sun Nov 18 17:06:33 BRST 2018  m
+Sun Nov 18 17:06:42 BRST 2018  pesquisar -c 001
+Sun Nov 18 17:07:42 BRST 2018  g
+Sun Nov 18 17:10:57 BRST 2018  Inicio da execução!
+Sun Nov 18 17:11:00 BRST 2018  m
+Sun Nov 18 17:11:20 BRST 2018  Inicio da execução!
+Sun Nov 18 17:11:27 BRST 2018  pesquisar -c 001
+Sun Nov 18 17:12:03 BRST 2018  Inicio da execução!
+Sun Nov 18 17:12:10 BRST 2018  pesquisar -c 0001
+Sun Nov 18 17:12:39 BRST 2018  pesquisar -c 0000001
+Sun Nov 18 17:12:48 BRST 2018  pesquisar -c 1
+Sun Nov 18 17:13:17 BRST 2018  criar -c 12 -n Teste -q Azul -s 1243423
+Sun Nov 18 17:13:27 BRST 2018  pesquisar -c 12
+Sun Nov 18 17:13:58 BRST 2018  Inicio da execução!
+Sun Nov 18 17:14:00 BRST 2018  m
+Sun Nov 18 17:14:47 BRST 2018  r
+Mon Nov 19 14:17:59 BRST 2018  Inicio da execução!
+Mon Nov 19 14:18:02 BRST 2018  run
+Mon Nov 19 14:18:50 BRST 2018  m
+Mon Nov 19 14:19:09 BRST 2018  criar -c 001 -n Argo -q Preto -s 80000,00
+Mon Nov 19 14:19:19 BRST 2018  pesquisar -n 001
+Mon Nov 19 14:19:37 BRST 2018  pesquisar -c 001
+Mon Nov 19 14:19:54 BRST 2018  pesquisar -n Argo
+Mon Nov 19 14:19:57 BRST 2018  m
+Mon Nov 19 14:20:12 BRST 2018  Inicio da execução!
+Mon Nov 19 14:20:15 BRST 2018  run
+Mon Nov 19 14:20:22 BRST 2018  ecluir 001
+Mon Nov 19 14:20:28 BRST 2018  excluir 001
+Mon Nov 19 14:20:31 BRST 2018  m
+Mon Nov 19 14:21:08 BRST 2018  criar -c 001 -n Argo -q Azul -s 80000,00
+Mon Nov 19 14:21:49 BRST 2018  alterar -c 001 -n fait -q Preto -s 70000,00
+Mon Nov 19 14:22:51 BRST 2018  pesquisar -c 001
+Mon Nov 19 14:23:52 BRST 2018  m
+Mon Nov 19 14:24:18 BRST 2018  criar -c 001 -n Argo -q Preto -s 80000,00
+Mon Nov 19 14:24:24 BRST 2018  criar -c 002 -n Argo -q Preto -s 80000,00
+Mon Nov 19 14:24:28 BRST 2018  criar -c 003 -n Argo -q Preto -s 80000,00
+Mon Nov 19 14:24:33 BRST 2018  criar -c 004 -n Argo -q Preto -s 80000,00
+Mon Nov 19 14:24:35 BRST 2018  m
+Mon Nov 19 14:36:00 BRST 2018  Inicio da execução!
+Mon Nov 19 14:36:07 BRST 2018  run
+Mon Nov 19 17:43:51 BRST 2018  Inicio da execução!
+Mon Nov 19 17:43:53 BRST 2018  run
+Mon Nov 19 17:44:20 BRST 2018  criar -h 009 -n TesteH -q Prettto -s 80000,00
+Mon Nov 19 17:44:29 BRST 2018  pesquisar -h 009
+Mon Nov 19 17:44:58 BRST 2018  Inicio da execução!
+Mon Nov 19 17:45:06 BRST 2018  pesquisar -h 001
+Wed Nov 21 15:38:10 BRST 2018  Inicio da execução!
+Wed Nov 21 15:38:16 BRST 2018  RUN
+Wed Nov 21 15:38:54 BRST 2018  Inicio da execução!
+Wed Nov 21 15:39:04 BRST 2018  run
+Wed Nov 21 15:39:33 BRST 2018  Inicio da execução!
+Wed Nov 21 15:39:35 BRST 2018  run
+Wed Nov 21 15:40:26 BRST 2018  Inicio da execução!
+Wed Nov 21 15:40:31 BRST 2018  come�ar
+Wed Nov 21 15:40:40 BRST 2018  Come�ar
+Wed Nov 21 15:40:45 BRST 2018  Come�ar
+Wed Nov 21 15:40:47 BRST 2018  sair
+Wed Nov 21 15:40:47 BRST 2018  Final da execução
+
+
+
+Wed Nov 21 15:41:01 BRST 2018  Inicio da execução!
+Wed Nov 21 15:41:04 BRST 2018  comecar
+Wed Nov 21 15:41:47 BRST 2018  Inicio da execução!
+Wed Nov 21 15:43:40 BRST 2018  Inicio da execução!
+Wed Nov 21 15:43:45 BRST 2018  comecar
+Wed Nov 21 15:43:57 BRST 2018  Inicio da execução!
+Wed Nov 21 15:44:00 BRST 2018  comecar
+Wed Nov 21 15:44:11 BRST 2018  Inicio da execução!
+Wed Nov 21 15:44:14 BRST 2018  comecar
+Wed Nov 21 15:55:07 BRST 2018  Inicio da execução!
+Wed Nov 21 15:55:45 BRST 2018  criar chassi 001 nome Robson cor Preto valor 12000,00
+Wed Nov 21 15:55:55 BRST 2018  criar chassi 011 nome Robson cor Preto valor 12000,00
+Wed Nov 21 15:55:58 BRST 2018  m
+Wed Nov 21 16:04:06 BRST 2018  Inicio da execução!
+Wed Nov 21 16:04:08 BRST 2018  r
+Wed Nov 21 16:04:11 BRST 2018  sair
+Wed Nov 21 16:04:11 BRST 2018  Final da execução
+
+
+
+Wed Nov 21 16:04:16 BRST 2018  Inicio da execução!
+Wed Nov 21 16:04:17 BRST 2018  m
+Wed Nov 21 16:04:21 BRST 2018  comecar
+Wed Nov 21 16:05:24 BRST 2018  criar Chassi: 001 Nome: Teste Cor: Azul Valor: 1200,00
+Wed Nov 21 16:05:31 BRST 2018  m
+Wed Nov 21 16:06:05 BRST 2018  criar Chassi: 002 Nome: Teste2 Cor: Preto Valor: 3200,00
+Wed Nov 21 16:06:08 BRST 2018  m
+Wed Nov 21 16:06:50 BRST 2018  Inicio da execução!
+Wed Nov 21 16:07:01 BRST 2018  pesquisar Nome:Teste
+Wed Nov 21 16:07:11 BRST 2018  pesquisar Nome: Teste
+Wed Nov 21 16:07:28 BRST 2018  pesquisar Chassi: 001
+Wed Nov 21 16:07:39 BRST 2018  pesquisar Chassi:002
+Wed Nov 21 16:07:48 BRST 2018  pesquisar Chassi: 002
+Wed Nov 21 16:07:55 BRST 2018  sair
+Wed Nov 21 16:07:55 BRST 2018  Final da execução
+
+
+
+Wed Nov 21 16:09:01 BRST 2018  Inicio da execução!
+Wed Nov 21 16:09:06 BRST 2018  excluir 001
+Wed Nov 21 16:09:31 BRST 2018  Inicio da execução!
+Wed Nov 21 16:10:10 BRST 2018  alterar Chassi: 001 Nome: Alterar Cor: Alterar Valor:1200,00
+Wed Nov 21 16:10:42 BRST 2018  alterar -c 001 -n Teste -q Alterar -s 2000[
+Wed Nov 21 16:10:52 BRST 2018  alterar -c 001 -n Teste -q Alterar -s 2000
+Wed Nov 21 16:16:30 BRST 2018  Inicio da execução!
+Wed Nov 21 16:16:32 BRST 2018  m
+Wed Nov 21 16:17:00 BRST 2018  alterar -c 001 -n AlterarTeste -q AlterarCor -s 1200,00
+Wed Nov 21 16:17:47 BRST 2018  Inicio da execução!
+Wed Nov 21 16:18:10 BRST 2018  criar -c 009 -n teste -q teste -s 90000
+Wed Nov 21 16:18:22 BRST 2018  pesquisar -c 009
+Wed Nov 21 16:18:33 BRST 2018  pesquisar -n teste
+Thu Nov 22 11:58:32 BRST 2018  Inicio da execução!
+Thu Nov 22 11:59:26 BRST 2018  run
+Thu Nov 22 11:59:28 BRST 2018  m
+Thu Nov 22 11:59:42 BRST 2018  pesquisar -c 01
+Thu Nov 22 12:00:12 BRST 2018  a -c 01 -n Alterar -q azul -s 1000
+Thu Nov 22 12:00:15 BRST 2018  m
+Thu Nov 22 12:00:24 BRST 2018  m
+Thu Nov 22 12:00:31 BRST 2018  pesquisar -c 01
+Thu Nov 22 12:23:01 BRST 2018  Inicio da execução!
+Thu Nov 22 12:23:22 BRST 2018  Inicio da execução!
+Thu Nov 22 12:23:26 BRST 2018  comecar
+Thu Nov 22 12:24:28 BRST 2018  Inicio da execução!
+Thu Nov 22 12:24:44 BRST 2018  Inicio da execução!
+Thu Nov 22 12:24:49 BRST 2018  comecar
+Thu Nov 22 12:25:09 BRST 2018  Inicio da execução!
+Thu Nov 22 12:25:12 BRST 2018  comecar
+Thu Nov 22 12:25:31 BRST 2018  Inicio da execução!
+Thu Nov 22 12:25:34 BRST 2018  comecar
+Thu Nov 22 12:25:49 BRST 2018  Inicio da execução!
+Thu Nov 22 12:25:52 BRST 2018  comecar
+Thu Nov 22 12:26:14 BRST 2018  Inicio da execução!
+Thu Nov 22 12:26:18 BRST 2018  comecar
+Thu Nov 22 12:43:40 BRST 2018  Executando**
+Thu Nov 22 12:43:42 BRST 2018  m
+Thu Nov 22 12:44:15 BRST 2018  C Chassi:001 Nome: Teste Cor: Azul Valor: 12000
+Thu Nov 22 12:45:06 BRST 2018  Executando**
+Thu Nov 22 12:45:37 BRST 2018  C Chassi: 001 Nome: Robson Cor: Cor Valor: 12000
+Thu Nov 22 12:47:31 BRST 2018  Inicio da execução!
+Thu Nov 22 12:47:33 BRST 2018  run
+Thu Nov 22 12:47:40 BRST 2018  criar -c 001 -n Argo -q Preto -s 80000,00 
+Thu Nov 22 12:47:43 BRST 2018  r
+Thu Nov 22 12:47:45 BRST 2018  criar -c 001 -n Argo -q Preto -s 80000,00 
+Thu Nov 22 12:47:47 BRST 2018  m
+Thu Nov 22 16:19:51 BRST 2018  Inicio da execução!
+Thu Nov 22 16:19:55 BRST 2018  m
+Thu Nov 22 16:19:58 BRST 2018  r
+Thu Nov 22 16:44:21 BRST 2018  Inicio da execução!
+Thu Nov 22 16:44:25 BRST 2018  s
+Thu Nov 22 16:44:28 BRST 2018  a
+Thu Nov 22 16:44:29 BRST 2018  r
+Thu Nov 22 16:46:14 BRST 2018  Inicio da execução!
+Thu Nov 22 16:46:16 BRST 2018  d
+Thu Nov 22 16:46:17 BRST 2018  s
+Thu Nov 22 16:46:32 BRST 2018  criar c
+Fri Nov 23 07:38:39 BRST 2018  Programa foi inicializado!
+Fri Nov 23 07:39:02 BRST 2018  Programa foi inicializado!
+Fri Nov 23 07:40:30 BRST 2018  Programa foi inicializado!
+Fri Nov 23 07:40:32 BRST 2018  run
+Fri Nov 23 07:40:42 BRST 2018  criar -chassi 001 -n Argo -q Preto -s 80000,00
+Fri Nov 23 07:40:52 BRST 2018  criar -chassi: 001 -n Argo -q Preto -s 80000,00
+Fri Nov 23 07:40:57 BRST 2018  m
+Fri Nov 23 07:41:01 BRST 2018  r
+Fri Nov 23 07:43:35 BRST 2018  Programa foi inicializado!
+Fri Nov 23 07:44:04 BRST 2018  crir -chassi: 002 -nome: Teste -cor: Azul -valor:13000
+Fri Nov 23 07:44:14 BRST 2018  crir -chassi: 002 -nome: Teste -cor: Azul -valor: 13000
+Fri Nov 23 07:45:22 BRST 2018  Programa foi inicializado!
+Fri Nov 23 07:45:26 BRST 2018  run
+Fri Nov 23 07:46:00 BRST 2018  criar -chassi: 002 -nome: Robson -cor: Testte -valor:1200,00
+Fri Nov 23 07:46:15 BRST 2018  criar -chassi: 002 -nome: Robson -cor: Testte -valor: 1200,00
+Fri Nov 23 07:46:25 BRST 2018  m
+Fri Nov 23 07:46:28 BRST 2018  r
+Fri Nov 23 07:46:30 BRST 2018  sair
+Fri Nov 23 07:46:30 BRST 2018  Final da execução
+
+
+
+Fri Nov 23 07:46:44 BRST 2018  Programa foi inicializado!
+Fri Nov 23 07:47:38 BRST 2018  criar -chassi: 01 -nome: Gol -cor: Preta -valor: 30000,00
+Fri Nov 23 07:47:43 BRST 2018  m
+Fri Nov 23 07:47:54 BRST 2018  sair
+Fri Nov 23 07:47:54 BRST 2018  Final da execução
+
+
+
+Fri Nov 23 07:55:31 BRST 2018  Programa foi inicializado!
+Fri Nov 23 07:55:34 BRST 2018  run
+Fri Nov 23 07:55:42 BRST 2018  m
+Fri Nov 23 07:55:54 BRST 2018  pesquisar -chassi: 1
+Fri Nov 23 07:57:07 BRST 2018  Programa foi inicializado!
+Fri Nov 23 07:57:16 BRST 2018  pesquisar -chassi: 04
+Fri Nov 23 07:57:23 BRST 2018  sair
+Fri Nov 23 07:57:23 BRST 2018  Final da execução
+
+
+
+Fri Nov 23 07:58:05 BRST 2018  Programa foi inicializado!
+Fri Nov 23 07:58:07 BRST 2018  m
+Fri Nov 23 07:58:16 BRST 2018  pesquisar -nome: Gol
+Fri Nov 23 07:58:31 BRST 2018  pesquisar -nome: Teste
+Fri Nov 23 08:00:01 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:00:08 BRST 2018  pesquisar -c 01
+Fri Nov 23 08:00:48 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:00:53 BRST 2018  excluir -c 01
+Fri Nov 23 08:01:00 BRST 2018  sair
+Fri Nov 23 08:01:00 BRST 2018  Final da execução
+
+
+
+Fri Nov 23 08:01:46 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:01:51 BRST 2018  excluir 01
+Fri Nov 23 08:01:52 BRST 2018  m
+Fri Nov 23 08:02:24 BRST 2018  criar -chassi: 01 -nome: Golzinho -cor: azul -valor: 12000,00
+Fri Nov 23 08:02:27 BRST 2018  m
+Fri Nov 23 08:02:40 BRST 2018  pesquisar -chassi: 01
+Fri Nov 23 08:02:54 BRST 2018  pesquisar -nome: Golzinho
+Fri Nov 23 08:02:57 BRST 2018  sair
+Fri Nov 23 08:02:57 BRST 2018  Final da execução
+
+
+
+Fri Nov 23 08:04:25 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:04:26 BRST 2018  r
+Fri Nov 23 08:04:34 BRST 2018  r
+Fri Nov 23 08:04:41 BRST 2018  sair
+Fri Nov 23 08:04:41 BRST 2018  Final da execução
+
+
+
+Fri Nov 23 08:13:02 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:13:04 BRST 2018  m
+Fri Nov 23 08:13:07 BRST 2018  run
+Fri Nov 23 08:13:15 BRST 2018  criar -chassi: 01 -nome: Gol -cor: Preta -valor: 30000,00
+Fri Nov 23 08:13:38 BRST 2018  alterar -chassi: 01 -nome: XX -cor: XX -valor: 40000,00
+Fri Nov 23 08:13:44 BRST 2018  sair
+Fri Nov 23 08:13:44 BRST 2018  Final da execução
+
+
+
+Fri Nov 23 08:13:50 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:13:56 BRST 2018  pesquisar -chassi: 1
+Fri Nov 23 08:14:16 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:14:17 BRST 2018  r
+Fri Nov 23 08:14:21 BRST 2018  sair
+Fri Nov 23 08:14:21 BRST 2018  Final da execução
+
+
+
+Fri Nov 23 08:17:51 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:17:52 BRST 2018  run
+Fri Nov 23 08:18:04 BRST 2018  sair
+Fri Nov 23 08:18:04 BRST 2018  Final da execução
+
+
+
+Fri Nov 23 08:18:15 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:18:18 BRST 2018  run
+Fri Nov 23 08:18:27 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:18:29 BRST 2018  run
+Fri Nov 23 08:19:05 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:19:08 BRST 2018  run
+Fri Nov 23 08:19:22 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:19:25 BRST 2018  run
+Fri Nov 23 08:19:39 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:19:41 BRST 2018  run
+Fri Nov 23 08:21:00 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:21:02 BRST 2018  run
+Fri Nov 23 08:23:22 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:23:26 BRST 2018  comecar
+Fri Nov 23 08:23:47 BRST 2018  m
+Fri Nov 23 08:24:08 BRST 2018   criar -chassi: 01 -nome: Gol -cor: Preta -valor: 30000,00
+Fri Nov 23 08:24:29 BRST 2018   criar -chassi: 02 -nome: Fox -cor: Rosa -valor: 50000,00
+Fri Nov 23 08:24:56 BRST 2018   criar -chassi: 03 -nome: Uno -cor: Roxo -valor: 15000,00
+Fri Nov 23 08:24:59 BRST 2018  sair
+Fri Nov 23 08:24:59 BRST 2018  Final da execução
+
+
+
+Fri Nov 23 08:25:04 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:25:10 BRST 2018  m
+Fri Nov 23 08:25:43 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:25:51 BRST 2018  pesquisar -chassi: 01
+Fri Nov 23 08:26:00 BRST 2018  pesquisar -chassi: 02
+Fri Nov 23 08:26:08 BRST 2018  pesquisar -chassi: 03
+Fri Nov 23 08:26:19 BRST 2018  pesquisar -nome: Gol
+Fri Nov 23 08:27:06 BRST 2018  alterar -chassi: 01 -nome: Fusca -cor: Cinza -valor: 15000,30
+Fri Nov 23 08:27:13 BRST 2018  m
+Fri Nov 23 08:27:24 BRST 2018  excluir 1
+Fri Nov 23 08:35:49 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:35:52 BRST 2018  comecar
+Fri Nov 23 08:35:55 BRST 2018  m
+Fri Nov 23 08:35:58 BRST 2018  r
+Fri Nov 23 08:36:07 BRST 2018  criar -chassi: 01 -nome: Gol -cor: Preta -valor: 30000,00
+Fri Nov 23 08:36:17 BRST 2018  pesquisar -chassi: 01
+Fri Nov 23 08:36:27 BRST 2018  pesquisar -nome: Gol
+Fri Nov 23 08:37:12 BRST 2018  alterar -chassi: 01 -nome: Alterar -cor: Alterar -valor: 15000,00 
+Fri Nov 23 08:37:22 BRST 2018  pesquisar -chassi:01
+Fri Nov 23 08:37:32 BRST 2018  pesquisar -chassi: 01
+Fri Nov 23 08:37:40 BRST 2018  excluir 1
+Fri Nov 23 08:37:43 BRST 2018  sair
+Fri Nov 23 08:37:43 BRST 2018  Final da execução
+
+
+
+Fri Nov 23 08:37:50 BRST 2018  Programa foi inicializado!
+Fri Nov 23 08:37:51 BRST 2018  m
+Fri Nov 23 08:38:03 BRST 2018  pesquisar -chassi: 01
+Fri Nov 23 09:51:25 BRST 2018  Programa foi inicializado!
+Fri Nov 23 09:51:29 BRST 2018  comecar
+Fri Nov 23 09:51:40 BRST 2018  criar -chassi: 01 -nome: Gol -cor: Preta -valor: 30000,00 -quantidade: 1
+Fri Nov 23 09:51:46 BRST 2018  m
+Fri Nov 23 09:52:05 BRST 2018  r
+Fri Nov 23 09:52:15 BRST 2018  criar -chassi: 01 -nome: Gol -cor: Preta -valor: 30000,00 -quantidade: 2
+Fri Nov 23 09:52:17 BRST 2018  m

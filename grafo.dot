@@ -1,0 +1,33 @@
+digraph g {
+label = "Dados no arquivo"
+node [shape="rectangle"]
+
+"Chassi: 1
+Nome: Argooo
+cor: Azul
+Valor: 12000.0." -> "Chassi: 2
+Nome: Argo
+cor: Preto
+Valor: 80000.0." [label="DIR:163"]
+"Chassi: 2
+Nome: Argo
+cor: Preto
+Valor: 80000.0." -> "Chassi: 3
+Nome: Argo
+cor: Preto
+Valor: 80000.0." [label="DIR:326"]
+"Chassi: 3
+Nome: Argo
+cor: Preto
+Valor: 80000.0." -> "Chassi: 4
+Nome: Argo
+cor: Preto
+Valor: 80000.0." [label="DIR:489"]
+"Chassi: 4
+Nome: Argo
+cor: Preto
+Valor: 80000.0." -> "Chassi: 5
+Nome: Argo
+cor: Preto
+Valor: 80000.0." [label="DIR:652"]
+}
