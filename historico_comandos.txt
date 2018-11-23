@@ -517,3 +517,21 @@ Fri Nov 23 09:51:46 BRST 2018  m
 Fri Nov 23 09:52:05 BRST 2018  r
 Fri Nov 23 09:52:15 BRST 2018  criar -chassi: 01 -nome: Gol -cor: Preta -valor: 30000,00 -quantidade: 2
 Fri Nov 23 09:52:17 BRST 2018  m
+Fri Nov 23 13:20:59 BRST 2018  Programa foi inicializado! 
+Fri Nov 23 13:21:13 BRST 2018  comecar
+Fri Nov 23 13:21:22 BRST 2018   criar -chassi: 01 -nome: Gol -cor: Preta -valor: 30000,00
+Fri Nov 23 13:21:28 BRST 2018  m
+Fri Nov 23 13:21:32 BRST 2018  r
+Fri Nov 23 13:21:36 BRST 2018   criar -chassi: 01 -nome: Gol -cor: Preta -valor: 30000,0
+Fri Nov 23 13:22:02 BRST 2018   criar -chassi: 01 -nome: Gol -cor: Preta -valor: 30000,0
+Fri Nov 23 13:22:06 BRST 2018  m
+Fri Nov 23 13:22:14 BRST 2018  Programa foi inicializado! 
+Fri Nov 23 13:22:42 BRST 2018  criar -chassi: 009 -nome: teste -cor: preto -valor: 12000,00
+Fri Nov 23 13:23:17 BRST 2018  Programa foi inicializado! 
+Fri Nov 23 13:23:20 BRST 2018  comecar
+Fri Nov 23 13:23:26 BRST 2018  criar -chassi: 01 -nome: Gol -cor: Preta -valor: 30000,00
+Fri Nov 23 13:24:11 BRST 2018  Programa foi inicializado! 
+Fri Nov 23 13:24:14 BRST 2018  comecar
+Fri Nov 23 13:24:16 BRST 2018  criar -chassi: 01 -nome: Gol -cor: Preta -valor: 30000,00
+Fri Nov 23 13:24:27 BRST 2018  m
+Fri Nov 23 13:24:34 BRST 2018  r

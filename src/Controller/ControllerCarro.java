@@ -111,7 +111,7 @@ public class ControllerCarro {
 
     public boolean cadastrar(String[] argumentos) {
 
-        if (argumentos.length < 10) {
+        if (argumentos.length < 9) {
             System.out.println("Erro faltando comandos!!");
             return false;
         }
