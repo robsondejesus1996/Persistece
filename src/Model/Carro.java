@@ -9,6 +9,7 @@ public class Carro {
      String nome;
      String cor;
      double valor;
+     //test
      double quantidade;
 
     public Carro() {
@@ -19,6 +20,7 @@ public class Carro {
         this.nome = nome;
         this.cor = cor;
         this.valor= valor;
+        //teste
         this.quantidade = quantidade;
     }
     
@@ -54,6 +56,7 @@ public class Carro {
         this.valor= valor;
     }
 
+    //teste
     public double getQuantidade() {
         return quantidade;
     }
