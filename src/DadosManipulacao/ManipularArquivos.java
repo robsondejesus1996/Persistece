@@ -1,4 +1,4 @@
-package Persistencia;
+package DadosManipulacao;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -12,10 +12,10 @@ import java.io.IOException;
 public class ManipularArquivos {
     
     
-    public final static String CAMINHO_ARQUIVO_COMANDOS = "historico_comandos.txt";
+//    public final static String CAMINHO_ARQUIVO_COMANDOS = "historico_comandos.txt";
     
     
-    public final static String CAMINNHO_ARQUIVO_GRAFO = "grafo.dot";
+//    public final static String CAMINNHO_ARQUIVO_GRAFO = "grafo.dot";
     
     
     public static boolean gravar(String arquivo, String s){

@@ -1,4 +1,4 @@
-package Persistencia;
+package DadosManipulacao;
 
 /**
  * Objeto auxiliar que guarda apenas a posição no arquivo, posicao da tupla

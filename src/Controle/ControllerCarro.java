@@ -1,8 +1,8 @@
-package Controller;
+package Controle;
 
-import Model.Carro;
-import Persistencia.ManipularArquivos;
-import Persistencia.CarroDao;
+import Modelo.Carro;
+import DadosManipulacao.ManipularArquivos;
+import DadosManipulacao.Controle;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
@@ -44,12 +44,10 @@ public class ControllerCarro {
 
     private final Scanner entrada = new Scanner(System.in);
 
-    private final CarroDao uDao = new CarroDao();
+    private final Controle uDao = new Controle();
 
     public void executar() {
 
-        ManipularArquivos.gravar(ManipularArquivos.CAMINHO_ARQUIVO_COMANDOS,
-                new Date() + "  Programa foi inicializado! ");
 
         System.out.print("Digite 'comecar' para ver todas as instruções do sistema.\n");
         String aux;
@@ -60,8 +58,6 @@ public class ControllerCarro {
 
             aux = entrada.nextLine();
 
-            ManipularArquivos.gravar(ManipularArquivos.CAMINHO_ARQUIVO_COMANDOS,
-                    new Date() + "  " + aux);
 
             comandos = aux.split("&&");
 
@@ -90,9 +86,6 @@ public class ControllerCarro {
             case "m":
                 System.out.println(uDao.imprimirArvore());
                 break;
-            case "g":
-                uDao.escreverArvore();
-                break;
             case "r":
                 resetar();
                 break;
@@ -100,8 +93,7 @@ public class ControllerCarro {
                 System.out.println(intrucoes);
                 break;
             case "sair":
-                ManipularArquivos.gravar(ManipularArquivos.CAMINHO_ARQUIVO_COMANDOS,
-                        new Date() + "  Final da execução\n\n\n");
+
                 System.exit(0);
                 break;
             default:

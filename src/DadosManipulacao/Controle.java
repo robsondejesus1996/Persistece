@@ -1,8 +1,8 @@
-package Persistencia;
+package DadosManipulacao;
 
-import Exceptions.IndiceInvalidoException;
-import Exceptions.IndiceAtributoInvalido;
-import Model.Carro;
+import Excecoes.IndiceInvalidoException;
+import Excecoes.IndiceAtributoInvalido;
+import Modelo.Carro;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
@@ -12,7 +12,7 @@ import java.util.Stack;
 /**
  * @author Robson de Jesus
  */
-public class CarroDao {
+public class Controle {
 
     
     private final int TAMANHO_TUPLA = 163;
@@ -24,7 +24,7 @@ public class CarroDao {
     private final int TAMANHO_COR = 30;
     
     
-    private final String CAMINHO_ARQUIVO = "usuarios.dat";
+    private final String CAMINHO_ARQUIVO = "carros.dat";
 
     
     private final int POSICAO_CHASSI = 0;
@@ -58,6 +58,7 @@ public class CarroDao {
     
    
     public final int INDICE_VALOR = 4;
+    
     public final int INDICE_QUANTIDADE = 5;
     
     
@@ -73,7 +74,7 @@ public class CarroDao {
     private final int NUMERO_ATRIBUTOS = 8;
 
     
-    public CarroDao() {
+    public Controle() {
         
         RandomAccessFile arq;
         try {
@@ -86,42 +87,16 @@ public class CarroDao {
 
     
     public String imprimirArvore() {
-        return "Árvore no documento:\n" + percorreArvore(0, 0, false);
-    }
-    
-    
-    public void escreverArvore(){
-        
-        ManipularArquivos.limparArquivo(ManipularArquivos.CAMINNHO_ARQUIVO_GRAFO);
-        
-        
-        ManipularArquivos.gravar(ManipularArquivos.CAMINNHO_ARQUIVO_GRAFO,
-                  "digraph g {\n"
-                + "label = \"Dados no arquivo\"\n"
-                + "node [shape=\"rectangle\"]\n");
-        
-        
-        ManipularArquivos.gravar(ManipularArquivos.CAMINNHO_ARQUIVO_GRAFO,
-                percorreArvore(0, 0, true) + "}");
-        
-        try {
-            
-            Runtime.getRuntime().exec("dot grafo.dot -T pdf -o grafo.pdf").waitFor();
-
-            
-            Runtime.getRuntime().exec("evince grafo.pdf");
-        } catch (IOException | InterruptedException  ex) {
-            ex.printStackTrace();
-        }
-        
+        return "Árvore:\n" + posicaoArvore(0, 0, false);
     }
 
-    private String percorreArvore(long posicao, int nivel, boolean paraGrafo) {
+    //percorrimento da arvore
+    private String posicaoArvore(long posicao, int nivel, boolean paraGrafo) {
         String s = "";
         
        
         if (tamanhoArquivo() == 0) {
-            s += "vazio";
+            s += "Arquivo vazio";
         } else if (posicao != -1) {
             
             if(paraGrafo){
@@ -165,9 +140,9 @@ public class CarroDao {
             }
             
             
-            s += percorreArvore((long) lerAtributo(posicao, INDICE_TUPLA_DIREITA), nivel, paraGrafo);
+            s += posicaoArvore((long) lerAtributo(posicao, INDICE_TUPLA_DIREITA), nivel, paraGrafo);
             
-            s += percorreArvore((long) lerAtributo(posicao, INDICE_TUPLA_ESQUERDA), nivel, paraGrafo);
+            s += posicaoArvore((long) lerAtributo(posicao, INDICE_TUPLA_ESQUERDA), nivel, paraGrafo);
         } else {
             
             if( !paraGrafo ){
@@ -254,26 +229,26 @@ public class CarroDao {
     }
 
     
-    public Carro ler(long codigoUsuario) {
-        Carro usuarioLido = null;
+    public Carro ler(long codigoCarro) {
+        Carro CarroLido = null;
         
         
-        long posicaoBusca = pesquisar(codigoUsuario);
+        long posicaoBusca = pesquisar(codigoCarro);
 
         
         if (posicaoBusca != -1) {
-            usuarioLido = lerRegistro(posicaoBusca);
+            CarroLido = lerRegistro(posicaoBusca);
         }
 
-        return usuarioLido;
+        return CarroLido;
     }
 
     
-    public boolean excluir(long codigoUsuario) {
+    public boolean excluir(long codigoCarro) {
         boolean excluido = false;
 
         
-        long posicaoBusca = pesquisar(codigoUsuario);
+        long posicaoBusca = pesquisar(codigoCarro);
 
         
         if (posicaoBusca != -1) {
@@ -341,7 +316,7 @@ public class CarroDao {
     }
 
   
-    private long pesquisar(long codigoUsuario) {
+    private long pesquisar(long codigoCarro) {
       
         if (tamanhoArquivo() == 0) {
             return -1;
@@ -361,11 +336,11 @@ public class CarroDao {
             codigoTupla = (long) lerAtributo(posicaoAtual, INDICE_CHASSI);
 
             
-            if (codigoTupla == codigoUsuario) {
+            if (codigoTupla == codigoCarro) {
                 posicao = posicaoAtual;
                
                 break;
-            } else if (codigoUsuario < codigoTupla) {
+            } else if (codigoCarro < codigoTupla) {
                
                 posicaoAtual = (long) lerAtributo(posicaoAtual, INDICE_TUPLA_ESQUERDA);
             } else {
@@ -378,14 +353,14 @@ public class CarroDao {
     }
 
    
-    public ArrayList<Carro> pesquisarPorAtributos(Object atributoUsuario, int indiceAtributo) {
+    public ArrayList<Carro> pesquisarPorAtributos(Object atributoCarro, int indiceAtributo) {
        
         if (tamanhoArquivo() == 0) {
             return new ArrayList<>();
         }
 
         
-        ArrayList<Carro> usuarios = new ArrayList<>();
+        ArrayList<Carro> carros = new ArrayList<>();
       
         Stack<ItemArvore> pilha = new Stack();
         long aux;
@@ -412,23 +387,23 @@ public class CarroDao {
                 switch(indiceAtributo){                        
                     case INDICE_NOME:
                        
-                        if(lerAtributo(pilha.peek().getEndereco(), INDICE_NOME).equals( atributoUsuario) ){
-                            usuarios.add( lerRegistro( pilha.peek().getEndereco() ) );
+                        if(lerAtributo(pilha.peek().getEndereco(), INDICE_NOME).equals( atributoCarro) ){
+                            carros.add( lerRegistro( pilha.peek().getEndereco() ) );
                         }
                         break;
                     case INDICE_COR:
                        
                         if(lerAtributo(pilha.peek().getEndereco(), INDICE_COR)
-                                .equals( atributoUsuario)){
+                                .equals( atributoCarro)){
                             
-                            usuarios.add( lerRegistro( pilha.peek().getEndereco() ) );
+                            carros.add( lerRegistro( pilha.peek().getEndereco() ) );
                         }
                         break;
                     case INDICE_VALOR:
                       
                         if( (double) lerAtributo(pilha.peek().getEndereco(), INDICE_VALOR)
-                                == (double) atributoUsuario ){
-                            usuarios.add( lerRegistro( pilha.peek().getEndereco() ) );
+                                == (double) atributoCarro ){
+                            carros.add( lerRegistro( pilha.peek().getEndereco() ) );
                         }
                         break;
                 }
@@ -482,7 +457,7 @@ public class CarroDao {
             
         }
 
-        return usuarios;
+        return carros;
     }
 
     

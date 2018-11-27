@@ -1,4 +1,4 @@
-package Model;
+package Modelo;
 
 /**
  * @author Robson de Jesus

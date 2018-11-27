@@ -1,4 +1,4 @@
-package Exceptions;
+package Excecoes;
 
 /**
  * @author Robson de Jesus
@@ -7,7 +7,7 @@ public class IndiceInvalidoException extends RuntimeException{
 
     @Override
     public String getMessage() {
-        return "Indice para gravação/leitura inválido !!";
+        return "gravação/leitura inválido !!";
     }
     
 }
